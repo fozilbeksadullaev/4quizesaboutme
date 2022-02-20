@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Interactive Quiz</title>
+</head>
+<body>
+    <!-- Top Section -->
+<div class="intro py-3 bg-white text-center">
+    <div class="container">
+        <h2 class="text-primary display-3 my-4">Joke quizes about dude Fozilbek)</h2>
+    </div>
+</div>
+<!-- Result Section -->
+<div class="result py-4 d-none bg-light text-center"> 
+<div class="container lead">
+<p>You found <span class="text-primary display-4 p-3">0%</span>the answers</p>
+</div>
+</div>
+
+
+
+
+<!-- Quiz Section -->
+<div class="quiz py-4 bg-primary">
+    <div class="container">
+        <h2 class="my-5 text-white">On with the questions...</h2>
+        <form  class="quiz-form text-light">
+
+            <!--First Question  -->
+            <div class="my-5">
+                <p class="lead font-weight-normal">1. How do you find Fozilbek in Russia?</p>
+                           
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label class="form-check-label">From his IP adress</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="B" >
+                    <label class="form-check-label">Don't worry, Fozilbek will find you!</label>
+                </div>  
+            </div>
+            <!-- Second Question -->
+            <div class="my-5">
+                <p class="lead font-weight-normal">2. If Fozilbek go to the USA, what is the first thing he is going to do?</p>
+                           
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="A" checked>
+                    <label class="form-check-label">He will find an affordable apartment</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="B" >
+                    <label class="form-check-label">He wil speak with Americans</label>
+                </div>  
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="C" >
+                    <label class="form-check-label">How the fuck I know that</label>
+                </div>  
+                <!-- Third Question -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. Why he always writes in English?📝</p>
+                               
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label">Because he loves English</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B" >
+                        <label class="form-check-label">If he stop writing or speaking in English, he will loose his knowledge</label>
+                    </div>  
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. What is his IQ level?</p>
+                               
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="form-check-label">Not 150</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B" >
+                        <label class="form-check-label">60</label>
+                    </div>  
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </div>
+            
+            </form>
+    </div>
+</div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
